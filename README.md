@@ -8,6 +8,8 @@
 - [Weisfeiler-Leman](#weisfeiler-leman)
 - [High-order WL-based Methods](#high-order-WL-based-methods)
 - [Augmented feature-based Methods](#augmented-feature-based-methods)
+    - [Random Feature](#random-feature)
+    - [Distance Encoding](#distance-encoding)
 - [Subgraph-based Methods](#subgraph-based-methods)
 
 
@@ -31,15 +33,15 @@
 - [Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/4384) *Christopher Morris et.al.* AAAI 2019. [[code](https://github.com/chrsmrrs/k-gnn)] (**k-GNN**)
 - [Provably Powerful Graph Networks](https://proceedings.neurips.cc/paper/2019/file/bb04af0f7ecaee4aae62035497da1387-Paper.pdf) *Haggai Maron et.al.* NeurIPS 2019. [[code](https://github.com/hadarser/ProvablyPowerfulGraphNetworks_torch)] (**PPGN**)
 
-## Augmented feature-based Methods
+## Augmented Feature-based Methods
 
-### Random feature
+### Random Feature
 - [What graph neural networks cannot learn: depth vs width](https://openreview.net/pdf?id=B1l2bp4YwS) *Andreas Loukas* ICLR 2020. 
 - [Random Features Strengthen Graph Neural Networks](https://epubs.siam.org/doi/epdf/10.1137/1.9781611976700.38) *Ryoma Sato et.al.* SIAM 2021. [[code](https://github.com/joisino/random-features)]
 - [The Surprising Power of Graph Neural Networks with Random Node Initialization](https://www.ijcai.org/proceedings/2021/0291.pdf) *Ralph Abboud et.al.* IJCAI 2021. [[code](https://github.com/ralphabb/GNN-RNI)]
 
 ### Distance Encoding
-- [Distance Encoding: Design Provably More Powerful Neural Networks for Graph Representation Learning](https://proceedings.neurips.cc/paper/2020/file/2f73168bf3656f697507752ec592c437-Paper.pdf) *Pan Li et.al.* NeurIPS 2020. [[code](https://github.com/snap-stanford/distance-encoding)]
+- [Distance Encoding: Design Provably More Powerful Neural Networks for Graph Representation Learning](https://proceedings.neurips.cc/paper/2020/file/2f73168bf3656f697507752ec592c437-Paper.pdf) *Pan Li et.al.* NeurIPS 2020. [[code](https://github.com/snap-stanford/distance-encoding)] (**DE-GNN**)
 
 
 
