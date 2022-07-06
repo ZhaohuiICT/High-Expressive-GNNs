@@ -1,6 +1,6 @@
 # High-Expressive-GNNs
 
-> A curated list of awesome high expressive GNNs for graph classification.
+> A curated list of awesome high expressive GNNs for graph classification. (Actively keep updating)
 
 
 ## Contents
@@ -11,6 +11,7 @@
     - [Random Feature](#random-feature)
     - [Distance Encoding](#distance-encoding)
 - [Subgraph-based Methods](#subgraph-based-methods)
+- [k-hop Message Passing GNNs](#k-hop-message-passing-gnns)
 
 
 
@@ -45,13 +46,20 @@
 
 ### Distance Encoding
 - [Distance Encoding: Design Provably More Powerful Neural Networks for Graph Representation Learning](https://proceedings.neurips.cc/paper/2020/file/2f73168bf3656f697507752ec592c437-Paper.pdf) *Pan Li et.al.* NeurIPS 2020. [[code](https://github.com/snap-stanford/distance-encoding)] (**DE-GNN**)
+- [Equivariant and Stable Positional Encoding for More Powerful Graph Neural Networks](https://openreview.net/pdf?id=e95i1IHcWj) *Haorui Wang et.al.* ICLR 2022. [[code](https://github.com/Graph-COM/PEG)] (**PEG**)
 
 
 
 ## Subgraph-based Methods
-- [k-hop graph neural networks](https://www.sciencedirect.com/science/article/pii/S0893608020302495?dgcid=rss_sd_all) *Giannis Nikolentzos et.al.* Neural Networks 2020.[[code](https://github.com/giannisnik/k-hop-gnns)] (**k-hop GNN**)
 - [Nested Graph Neural Networks](https://openreview.net/pdf?id=7_eLEvFjCi3) *Muhan Zhang et.al.* NeurIPS 2021. [[code](https://github.com/muhanzhang/NestedGNN)] (**NGNN**)
+- [Ego-GNNs: Exploiting Ego Structures in Graph Neural Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414015) *Dylan Sandfelder et.al.* ICASSP 2021. (**Ego-GNN**)
 - [From Stars to Subgraphs: Uplifting Any GNN with Local Structure Awareness](https://openreview.net/pdf?id=Mspk_WYKoEH) *Lingxiao Zhao et.al.* ICLR 2022. [[code](https://github.com/LingxiaoShawn/GNNAsKernel)] (**GNN-AK**)
 
+## k-hop Message Passing GNNs
+- [MixHop: Higher-Order Graph Convolutional Architectures via Sparsified Neighborhood Mixing](http://proceedings.mlr.press/v97/abu-el-haija19a/abu-el-haija19a.pdf) *Sami Abu-El-Haija. et.al.* ICML 2019. [[code](https://github.com/samihaija/mixhop)] (**MixHop**)
+- [k-hop graph neural networks](https://www.sciencedirect.com/science/article/pii/S0893608020302495?dgcid=rss_sd_all) *Giannis Nikolentzos et.al.* Neural Networks 2020.[[code](https://github.com/giannisnik/k-hop-gnns)] (**k-hop GNN**)
+- [Multi-hop Attention Graph Neural Networks](https://www.ijcai.org/proceedings/2021/0425.pdf) *Guangtao Wang et.al.* IJCAI 2021. 
+#- [Adaptive Universal Generalized PageRank Graph Neural Network](https://openreview.net/pdf?id=n6jl7fLxrP) *Eli Chien et.al.* ICLR 2021.
+- [How Powerful are K-hop Message Passing Graph Neural Networks](https://arxiv.org/pdf/2205.13328.pdf) *Jiarui Feng et.al.* 2022.
 
 
