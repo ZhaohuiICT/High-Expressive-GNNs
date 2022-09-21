@@ -12,6 +12,7 @@
     - [Distance Encoding](#distance-encoding)
 - [Subgraph-based Methods](#subgraph-based-methods)
 - [k-hop Message Passing GNNs](#k-hop-message-passing-gnns)
+- [Equivariant Graph Networks](#Equivariant-Graph-Networks)
 
 
 
@@ -19,7 +20,6 @@
 - [A Survey on The Expressive Power of Graph Neural Networks](https://arxiv.org/pdf/2003.04078.pdf) *Ryoma Sato.* 2020.
 - [The Expressive Power of Graph Neural Networks](https://graph-neural-networks.github.io/static/file/chapter5.pdf) *Pan Li et al.* 2022.
 - [A Theoretical Comparison of Graph Neural Network Extensions](https://arxiv.org/pdf/2201.12884.pdf) *Pal Andras Papp et al.* 2022. 
-
 
 
 ## Weisfeiler-Leman 
@@ -55,6 +55,8 @@
 - [Ego-GNNs: Exploiting Ego Structures in Graph Neural Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414015) *Dylan Sandfelder et al.* ICASSP 2021. (**Ego-GNN**)
 - [From Stars to Subgraphs: Uplifting Any GNN with Local Structure Awareness](https://openreview.net/pdf?id=Mspk_WYKoEH) *Lingxiao Zhao et al.* ICLR 2022. [[code](https://github.com/LingxiaoShawn/GNNAsKernel)] (**GNN-AK**)
 - [Equivariant Subgraph Aggregation Networks](https://openreview.net/pdf?id=dFbKQaRk15w) *Beatrice Bevilacqua et al.* ICLR 2022. [[code](https://github.com/beabevi/ESAN)] (**ESAN**)
+- [Understanding and Extending Subgraph GNNs by Rethinking Their Symmetries](https://arxiv.org/pdf/2206.11140.pdf) *Fabrizio Frasca et al.* 2022
+- [Ordered Subgraph Aggregation Networks](https://arxiv.org/pdf/2206.11168.pdf) *Chendi Qian et al.* 2022
 
 ## k-hop Message Passing GNNs
 - [MixHop: Higher-Order Graph Convolutional Architectures via Sparsified Neighborhood Mixing](http://proceedings.mlr.press/v97/abu-el-haija19a/abu-el-haija19a.pdf) *Sami Abu-El-Haija. et al.* ICML 2019. [[code](https://github.com/samihaija/mixhop)] (**MixHop**)
@@ -62,7 +64,8 @@
 - [Multi-hop Attention Graph Neural Networks](https://www.ijcai.org/proceedings/2021/0425.pdf) *Guangtao Wang et al.* IJCAI 2021. 
 <!-- - [Adaptive Universal Generalized PageRank Graph Neural Network](https://openreview.net/pdf?id=n6jl7fLxrP) *Eli Chien et.al.* ICLR 2021.-->
 - [Shortest Path Networks for Graph Property Prediction](https://arxiv.org/pdf/2206.01003.pdf) *Ralph Abboud et al.* 2022.
-- [How Powerful are K-hop Message Passing Graph Neural Networks](https://arxiv.org/pdf/2205.13328.pdf) *Jiarui Feng et al.* 2022.
+- [How Powerful are K-hop Message Passing Graph Neural Networks](https://arxiv.org/pdf/2205.13328.pdf) *Jiarui Feng et al.* 2022. [[code](https://github.com/JiaruiFeng/KP-GNN)]
 
-
+## Equivariant Graph Networks
+- [Invariant and Equivariant Graph Networks](https://arxiv.org/pdf/1812.09902.pdf) *Haggai Maron et al.* ICLR 2019.
 
